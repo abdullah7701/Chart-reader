@@ -1,0 +1,30 @@
+Step 1: Install Dependencies
+Ensure you have Python 3.x installed.
+
+Install dependencies using pip:
+
+pip install -r requirements.txt
+
+
+Step 2: Setup Tesseract-OCR
+Windows:
+
+Download and install Tesseract OCR
+change Path according to your Laptop:
+pytesseract.pytesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
+
+
+Step 3: Running the Project
+Main Python Script:
+
+python main.py
+
+
+
+project-folder/
+│
+├── main.py               # Main script to run the project
+├── simple_model.py        # Contains the SimpleModel class and related functions
+├── evaluation.py          # Contains the evaluation logic
+├── requirements.txt       # The required dependencies
+└── task.py                # (If applicable) Code to generate tasks and process data
