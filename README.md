@@ -56,3 +56,156 @@ Currently, there are 5 types of questions to be addressed:
 - Ensure your model is well-tuned for the types of questions being asked.
 - Consider edge cases such as ties, missing data, and date formatting issues.
 - Optimize for performance, as the solution should handle a large number of queries efficiently.
+
+
+
+FOR MAX ACCURACY:
+It will take Less time when Run on Colab because of Laptop Processing power:
+
+Challenge 1:
+Question: What is the lowest value?
+Expected Answer: 13.39
+Model's Answer: 13.39
+Processing Time: 5.24 seconds
+Score: 0.9545454545454546
+
+Challenge 2:
+Question: What is the lowest value?
+Expected Answer: 11.95
+Model's Answer: 11.95
+Processing Time: 4.68 seconds
+Score: 1.0
+
+Challenge 3:
+Question: What is the lowest value?
+Expected Answer: 10.33
+Model's Answer: 10.33
+Processing Time: 4.56 seconds
+Score: 1.0
+
+Challenge 4:
+Question: What is the lowest value?
+Expected Answer: 10.96
+Model's Answer: 10.96
+Processing Time: 5.63 seconds
+Score: 0.9545454545454546
+
+Challenge 5:
+Question: What is the difference between the high and low values?
+Expected Answer: 80.32
+Model's Answer: 80.32
+Processing Time: 9.31 seconds
+Score: 0.8636363636363636
+
+Challenge 6:
+Question: What is the lowest value?
+Expected Answer: 12.19
+Model's Answer: 12.19
+Processing Time: 7.68 seconds
+Score: 0.9272727272727272
+
+Challenge 7:
+Question: What is the lowest value?
+Expected Answer: 15.05
+Model's Answer: 15.05
+Processing Time: 5.08 seconds
+Score: 1.0
+
+Challenge 8:
+Question: What is the lowest value?
+Expected Answer: 13.48
+Model's Answer: 13.48
+Processing Time: 5.05 seconds
+Score: 1.0
+
+Challenge 9:
+Question: What is the highest value?
+Expected Answer: 96.36
+Model's Answer: 96.36
+Processing Time: 5.71 seconds
+Score: 0.9545454545454546
+
+Challenge 10:
+Question: What is the difference between the high and low values?
+Expected Answer: 86.78
+Model's Answer: 86.78
+Processing Time: 11.10 seconds
+Score: 0.8636363636363636
+
+Challenge 11:
+Question: What is the highest value?
+Expected Answer: 81.45
+Model's Answer: 81.88
+Processing Time: 1.14 seconds
+Score: 0.9090909090909091
+
+Challenge 12:
+Question: What is the highest value?
+Expected Answer: 97.07
+Model's Answer: 97.07
+Processing Time: 6.56 seconds
+Score: 0.9545454545454546
+
+Challenge 13:
+Question: What is the difference between the high and low values?
+Expected Answer: 74.99
+Model's Answer: 74.99
+Processing Time: 9.49 seconds
+Score: 0.8636363636363636
+
+Challenge 14:
+Question: What is the difference between the high and low values?
+Expected Answer: 84.62
+Model's Answer: 84.62
+Processing Time: 8.61 seconds
+Score: 0.9272727272727272
+
+Challenge 15:
+Question: What is the highest value?
+Expected Answer: 89.45
+Model's Answer: 81.90
+Processing Time: 1.53 seconds
+Score: 0.36363636363636365
+
+Challenge 16:
+Question: What is the difference between the high and low values?
+Expected Answer: 87.40
+Model's Answer: 87.40
+Processing Time: 6.57 seconds
+Score: 0.9545454545454546
+
+Challenge 17:
+Question: What is the difference between the high and low values?
+Expected Answer: 77.29
+Model's Answer: 77.29
+Processing Time: 10.16 seconds
+Score: 0.8636363636363636
+
+Challenge 18:
+Question: What is the highest value?
+Expected Answer: 98.15
+Model's Answer: 98.15
+Processing Time: 5.33 seconds
+Score: 0.9545454545454546
+
+Challenge 19:
+Question: What is the highest value?
+Expected Answer: 99.44
+Model's Answer: 99.44
+Processing Time: 8.47 seconds
+Score: 0.9272727272727272
+
+Challenge 20:
+Question: What is the highest value?
+Expected Answer: 93.82
+Model's Answer: 93.82
+Processing Time: 6.06 seconds
+Score: 0.9545454545454546
+
+Average score: 0.91
+Is passing? True
+
+
+COLAB's Reuslt:
+![image](https://github.com/user-attachments/assets/a17abbc5-1a23-4d0f-b3a8-31b42ff34e33)
+
