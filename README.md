@@ -51,6 +51,15 @@ Currently, there are 5 types of questions to be addressed:
    ```bash
    python main.py
    ```
+
+4.MacOS:
+
+You can install Tesseract using brew: 
+
+brew install tesseract
+
+--->the path is set correctly, typically /usr/local/bin/tesseract.
+
 ## Tips for Success
 
 - Ensure your model is well-tuned for the types of questions being asked.
