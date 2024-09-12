@@ -209,3 +209,26 @@ Is passing? True
 COLAB's Reuslt:
 ![image](https://github.com/user-attachments/assets/a17abbc5-1a23-4d0f-b3a8-31b42ff34e33)
 
+
+
+______________________________________________________________________________________
+Requirements
+Ensure you have all necessary dependencies installed
+pip install -r requirements.txt
+
+
+How to Use
+Run the Model: To use the SimpleModel, call the get_answer() function by passing the question, chart image (in base64), and expected answer (optional).
+
+Sanmple code to Run the Simple_model.py:
+""
+from simple_model import SimpleModel
+
+model = SimpleModel()
+
+question = "What is the highest value?"
+image_base64 = "<your_base64_image_string>"
+answer = model.get_answer(question, image_base64)
+print("Model's Answer:", answer)
+
+""
